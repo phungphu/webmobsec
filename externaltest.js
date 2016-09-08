@@ -1,0 +1,1 @@
+alert('JS code from: '+ document.domain);
