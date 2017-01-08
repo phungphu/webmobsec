@@ -1,10 +1,10 @@
 alert('JS code from: github.io');
-document.addEventListener("load", onDeviceReady, false);
-function onDeviceReady() {
-	alert('alert from: github.io domain, onload event is fired');
+document.addEventListener("click", onMyClick, false);
+function onMyClick() {
+	alert('alert from: github.io domain, onMyClick event is fired');
 
-	document.querySelector("#getGeoLoc").addEventListener("click", function() {
-         alert('alert from: github.io domain, document.querySelector("#getGeoLoc"). fired');});
-	       
+	document.querySelector("#getGeoLoc").addEventListener("mouseover", function() {
+         	alert('alert from: github.io domain, document.querySelector("#getGeoLoc"). fired');}
+         );
 }
 
